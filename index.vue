@@ -51,7 +51,6 @@
             },
             destroy(val) {
                 if (val) {
-                    log('destroy pre banner');
                     this.cleanAutoCloseTimer();
                     this.$el.parent.removeChild(this.$el);
                 }
